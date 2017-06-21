@@ -1,24 +1,16 @@
-# README
+### Rails API + GraphQL usage tutorial
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+Query example
+```
+curl -XGET http://localhost:3000/movies -d "query={
+  movie(id: 1) {
+    title,
+    year,
+    actors {
+      name
+    }
+  }
+}"
+```
 
-Things you may want to cover:
-
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+[source](https://www.sitepoint.com/building-apis-ruby-rails-graphql)
