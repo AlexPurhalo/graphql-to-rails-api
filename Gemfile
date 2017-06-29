@@ -42,3 +42,10 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 
 # A plain-Ruby implementation of GraphQL.
 gem 'graphql', '~> 1.6', '>= 1.6.4'
+
+# Interface to create the queries and mutations to graphql
+gem 'graphiql-rails'
+
+gem 'sass-rails'
+gem 'uglifier'
+gem 'coffee-rails'
